@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D9851948-3209-7CAF-7F28-9FBC48CE0858}</ProjectGuid>
+    <ProjectGuid>{9F2311B8-9890-D3DD-4CA9-FA5C8FC6ECC2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -238,8 +238,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\NextButton.cs" />
     <Compile Include="Assets\Scripts\Bomb.cs" />
     <Compile Include="Assets\Scripts\DestroySelf.cs" />
+    <Compile Include="Assets\Scripts\Destruction.cs" />
     <Compile Include="Assets\Scripts\DisableTriggerOnPlayerExit.cs" />
     <Compile Include="Assets\Scripts\GlobalStateManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />

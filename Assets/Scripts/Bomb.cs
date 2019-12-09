@@ -54,14 +54,15 @@ public class Bomb : MonoBehaviour
 
         //Create a first explosion at the bomb position
         Instantiate (explosionPrefab, transform.position, Quaternion.identity);
-
+        
+        
         //For every direction, start a chain of explosions
         StartCoroutine (CreateExplosions (Vector3.forward));
         StartCoroutine (CreateExplosions (Vector3.right));
         StartCoroutine (CreateExplosions (Vector3.back));
         StartCoroutine (CreateExplosions (Vector3.left));
 
-        GetComponent<MeshRenderer> ().enabled = false; //Disable mesh
+        GetComponent<MeshRenderer>().enabled = false; //Disable mesh
         exploded = true; 
         transform.Find ("Collider").gameObject.SetActive (false); //Disable the collider
         Destroy (gameObject, .3f); //Destroy the actual bomb in 0.3 seconds, after all coroutines have finished
@@ -82,11 +83,24 @@ public class Bomb : MonoBehaviour
         { //The 3 here dictates how far the raycasts will check, in this case 3 tiles far
             RaycastHit hit; //Holds all information about what the raycast hits
 
+            
+
             Physics.Raycast (transform.position + new Vector3 (0, .5f, 0), direction, out hit, i, levelMask); //Raycast in the specified direction at i distance, because of the layer mask it'll only hit blocks, not players or bombs
 
             if (!hit.collider)
             { // Free space, make a new explosion
                 Instantiate (explosionPrefab, transform.position + (i * direction), explosionPrefab.transform.rotation);
+                Collider[] coll = Physics.OverlapSphere(transform.position, 0.6f);
+
+                foreach (Collider nearbyObject in coll)
+                {
+                    //Debug.Log("Boom");
+                    Destruction dest = nearbyObject.GetComponent<Destruction>();
+                    if(dest != null) {
+                        dest.DestructionBomb();
+                    }
+                }
+                
             } else
             { //Hit a block, stop spawning in this direction
                 break;

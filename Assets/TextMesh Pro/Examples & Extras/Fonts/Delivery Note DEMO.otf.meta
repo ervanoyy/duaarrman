@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: eeeb0bc3dc41df44bac93a53b2b9d559
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Delivery Note DEMO
+  fontNames:
+  - Delivery Note DEMO
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 21e9e287299f7e246bf2ebfb6a162990, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

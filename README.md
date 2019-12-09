@@ -2,15 +2,17 @@
 
 
 ### Developer
-
-|         Nama         |  Peran  | 
-| -------------------- |:-------:| 
-| Ervan Sadhaly        |         | 
-| M. Naufal Shidqi     |         |
-| Ahmad Al Banjaran CD |         |
+|         Nama         |         Peran        |  
+| -------------------- |----------------------| 
+| Ervan Sadhaly        | Game Artist          | 
+| M. Naufal Shidqi     | Game Designer        |
+| Ahmad Al Banjaran CD | Game Programmer      |
 
 ## Screenshot
-
+![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Start%20Menu.png "Start Menu")
+![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Starting%20Position.png "Starting Position")
+![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Dropping%20Bomb.png "Dropping Bomb")
+![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Explosion%20Gameplay.png "Explosion Gameplay")
 
 ## Deskripsi Game
 DUAARR MAN! Adalah game duel _multiplayer_, dengan syarat pemenang adalah player yang dapat membunuh musuhnya dengan menggunakan bom, didalam satu area yang seperti _maze_.
@@ -23,7 +25,7 @@ Player 2 dapat menggunakan tombol Arrow Up untuk bergerak keatas, Arrow Left unt
 ## Tech Stack
 
 |          Teknologi          |                  Kegunaan                 | 
-| ----------------------------|:-----------------------------------------:| 
-| Unity 2017.4.33f1           | Mengatur asset, script, serta animasi.    | 
+| ----------------------------|-------------------------------------------| 
+| Unity 2017.4.33f1           | Mengatur asset, script, mekanik gameplay, serta animasi.    | 
 | Adobe Illustrator CC 2018   | Membuat scene                             |
-| Blender                     | Membuat asset                             |
+| Blender 2.80                | Membuat asset                             |
