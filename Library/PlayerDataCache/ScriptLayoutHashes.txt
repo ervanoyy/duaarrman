@@ -5,6 +5,8 @@ SceneListBegin?
 Assets/Scenes/Main Menu.unity
 Assets/Scenes/Scene 1.unity
 Assets/Scenes/Scene 2.unity
+Assets/Scenes/Scene 3.unity
+Assets/Scenes/How to.unity
 Assets/Scenes/Game.unity
 SceneListEnd?
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexZoom
