@@ -9,7 +9,7 @@
 | Ahmad Al Banjaran CD | Game Programmer      |
 
 ## Screenshot
-![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Start%20Menu.png "Start Menu")
+![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Splash%20Screen.png "Start Menu")
 ![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Storyline%201.png "Storyline 1")
 ![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Storyline%202.png "Storyline 2")
 ![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Storyline%203.png "Storyline 3")
