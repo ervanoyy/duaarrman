@@ -31,6 +31,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GlobalStateManager : MonoBehaviour
 {
@@ -50,6 +51,7 @@ public class GlobalStateManager : MonoBehaviour
         }
     }
 
+
     void CheckPlayersDeath ()
     {
         if (deadPlayers == 1)
@@ -58,13 +60,17 @@ public class GlobalStateManager : MonoBehaviour
             if (deadPlayerNumber == 1)
             { //P1 dead, P2 is the winner
                 Debug.Log ("Player 2 is the winner!");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+
             } else
             { //P2 dead, P1 is the winner
                 Debug.Log ("Player 1 is the winner!");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         } else
         {  //Multiple dead players, it's a draw
             Debug.Log ("The game ended in a draw!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
         }
     }
 }
