@@ -16,6 +16,7 @@
 ![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Starting%20Position.png "Starting Position")
 ![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Dropping%20Bomb.png "Dropping Bomb")
 ![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Explosion%20Gameplay.png "Explosion Gameplay")
+![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Win%20Scene.png "Win Scene")
 
 ## Deskripsi Game
 DUAARR MAN! Adalah game duel _multiplayer_, dengan syarat pemenang adalah player yang dapat membunuh musuhnya dengan menggunakan bom, didalam satu area yang seperti _maze_.
