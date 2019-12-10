@@ -19,7 +19,7 @@
 ![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screenshot/Win%20Scene.png "Win Scene")
 
 ## Gameplay
-![alt text](https://github.com/ervanoyy/duaarrman/blob/master/Screen%20Record/DUAARR%20MAN!%20Demo%20Gameplay.mp4 "Demo")
+[![Demo Gameplay](https://i.ibb.co/z84G22K/https-drive-google.jpg)](https://drive.google.com/open?id=17P-qoTZxA2Gj2Cr7km5E847gH3-6eGnQ "Demo Gameplay")
 
 ## Deskripsi Game
 DUAARR MAN! Adalah game duel _multiplayer_, dengan syarat pemenang adalah player yang dapat membunuh musuhnya dengan menggunakan bom, didalam satu area yang seperti _maze_.
